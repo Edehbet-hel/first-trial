@@ -60,7 +60,7 @@ body > div {
   flex-direction: column;
   gap: 10px;
 }
-
+/* Break point for mobile devices */
 @media (max-width: 576px) {
   body {
     flex-direction: column;

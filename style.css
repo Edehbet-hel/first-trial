@@ -1,57 +1,62 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-body{
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    background-color:#42f5e9;
+body {
+  padding: 25px;
+  display: flex;
+  background-color: #d0faf4;
 }
-.biggest{
-    margin-bottom: 10px;
-    
+body > div {
+  width: 50%;
 }
-
-.countries{
-    background-color: white;
-    width: 210px;
-    height: 150px;
-    padding: 25px;
+.biggest {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
 }
-.patients{
-    background-color: white;
-    width: 210px;
-    height: 150px;
-    padding: 25px;
+.biggest h3 {
+  width: 20%;
+  color: #57b39a;
+  font-weight: 100;
 }
-.appointments{
-    background-color: white;
-    width: 210px;
-    height: 150px;
-    padding: 25px;
+.biggest p {
+  width: 60%;
 }
-.doctors{
-    background-color: white;
-    width: 210px;
-    height: 150px;
-    padding: 25px;
-}
-.container{
-    display: flex;
-    align-items: flex-end;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 10px;
-
+.par {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 5vh;
 }
 
-.container-1{
-    display: flex;
-    align-items: flex-end;
-    flex-direction: row;
-    justify-content: space-between;
-
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  gap: 5vh;
 }
 
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  padding-bottom: 20px;
+}
 
+.box {
+  background-color: white;
+  width: 210px;
+  height: 40%;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
